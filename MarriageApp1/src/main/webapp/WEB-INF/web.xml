@@ -1,0 +1,12 @@
+
+
+<web-app>
+ <servlet>
+<servlet-name>marriage</servlet-name>
+<servlet-class>com.yd.servlet.MarriageElgibilityCheckServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+<servlet-name>marriage</servlet-name>
+<url-pattern>/marriageUrl</url-pattern>
+</servlet-mapping>
+</web-app>

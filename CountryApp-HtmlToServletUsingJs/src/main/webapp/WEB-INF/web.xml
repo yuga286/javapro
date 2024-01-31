@@ -1,0 +1,16 @@
+ <web-app>
+<display-name>CountryApp-HtmlToServletUsingJs</display-name>
+
+<welcome-file-list>
+    <welcome-file>input.html</welcome-file>
+</welcome-file-list>
+  
+ <servlet>
+  <servlet-name>capitals</servlet-name>
+  <servlet-class>com.yd.servlet.ShowCapitalsServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>capitals</servlet-name>
+  <url-pattern>/capitalsurl</url-pattern>
+  </servlet-mapping>
+</web-app>
